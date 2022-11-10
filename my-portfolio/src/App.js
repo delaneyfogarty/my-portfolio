@@ -20,29 +20,21 @@ function App() {
               <li>
                 <NavLink to="/">
                   <span className="nav">About</span>
-                  <img src="../woman.png" className="nav-icon" alt="me" />
+                  <img src="../woman.png" className="nav-icon" alt="" />
                   {/* <a href="https://www.flaticon.com/free-icons/woman" title="woman icons">Woman icons created by Pixel perfect - Flaticon</a> */}
                 </NavLink>
               </li>
               <li>
                 <NavLink to="projects">
                   <span className="nav">Projects</span>
-                  <img
-                    src="../project.png"
-                    className="nav-icon"
-                    alt="projects"
-                  />
+                  <img src="../project.png" className="nav-icon" alt="" />
                   {/* <a href="https://www.flaticon.com/free-icons/terminal" title="terminal icons">Terminal icons created by Freepik - Flaticon</a> */}
                 </NavLink>
               </li>
               <li>
                 <NavLink to="connect">
                   <span className="nav">Connect</span>
-                  <img
-                    src="../connect.png"
-                    className="nav-icon"
-                    alt="connect"
-                  />
+                  <img src="../connect.png" className="nav-icon" alt="" />
                   {/* <a href="https://www.flaticon.com/free-icons/connection" title="connection icons">Connection icons created by cahiwak - Flaticon</a> */}
                 </NavLink>
               </li>
