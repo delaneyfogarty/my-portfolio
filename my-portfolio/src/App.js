@@ -9,6 +9,8 @@ import {
 import Bio from "./components/Bio/Bio";
 import Connect from "./components/Connect/Connect";
 import ProjectPage from "./components/Project/ProjectPage";
+import GitHubIcon from "@mui/icons-material/Github";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function App() {
   return (
@@ -48,6 +50,14 @@ function App() {
           <Route path="connect" element={<Connect />} />
         </Routes>
       </Router>
+      <div className="footer">
+        <a href="https://www.linkedin.com/in/delaney-fogarty/">
+          <LinkedInIcon />
+        </a>
+        <a href="https://github.com/delaneyfogarty">
+          <GitHubIcon />
+        </a>
+      </div>
     </div>
   );
 }
